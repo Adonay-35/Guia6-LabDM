@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Guia6</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="default_web_client_id" translatable="false">TU_id_de_cliente_web</string>
+    <string name="title_activity_politicas_de">PoliticasDeActivity</string>
+    <string name="title_activity_detail_budget">DetailBudget</string>
+    <string name="title_activity_aceca_de">AcecaDeActivity</string>
+    <string name="title_activity_main2">MainActivity2</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".TODOAplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="Erick Adonay Salazar Hernadez"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Guia6"
+        tools:targetApi="31">
+        <activity
+            android:name="UI.MainActivity2"
+            android:exported="false"
+            android:label="@string/title_activity_main2" />
+        <activity
+            android:name="UI.registerActivity"
+            android:exported="false"
+            android:label="registerActivity" />
+        <activity
+            android:name="UI.AcecaDeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_aceca_de" />
+        <activity
+            android:name="UI.DetailBudget"
+            android:exported="false"
+            android:label="@string/title_activity_detail_budget" />
+        <activity
+            android:name="UI.PoliticasDeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_politicas_de" />
+        <activity
+            android:name="UI.MainActivity"
+            android:exported="false"
+            android:label="MainActivity" />
+        <activity
+            android:name="UI.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
